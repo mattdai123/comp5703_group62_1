@@ -12,3 +12,12 @@ The most important thing is the four python files under the wifi folder, which a
 
 ## demo & docs
 Some introductions are unrelated to the project
+
+## opera & third_party
+Installation package locations for mmcv, mmdet, and opera
+
+## requirments
+Environment storage, but there is a problem with baseline's environment. We re-exported a new requirements.txt folder, which can be ignored directly
+
+## tools
+train.py is used to start the model training, and it requires an input config file, for example, train.py configs/wifi/MSEloss_64x2_lr_1e_5.py, to start the training. test.py is used to extract the test dataset's check points from the final pth file, and eval_metric to  extracted check points are evaluated and the MPJPE is calculated for the assessment.
