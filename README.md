@@ -17,8 +17,9 @@ MMCV_WITH_OPS=1 pip install -e .
 cd /ROOT/Opera/third_party/mmdet
 MMCV_WITH_OPS=1 pip install -e .
 ```
-### Step 1: Install opera:In the home directory
+### Step 3: Install opera:In the home directory
 ```bash
 pip install -r requirements.txt
 pip install -e .
 ```
+Note that our team uses cuda11.1, you can modify it according to your own cuda, if the direct installation of 11.1 fails, you can replace the installation source to install 11.1
