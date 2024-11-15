@@ -1,4 +1,4 @@
-This is the modified code of our team. In order to prevent the code from running wrong after deleting some files and not deleting any baseline files, I will cover what is useful and what is not in each file in this readme
+This is the modified code of our team. In order to prevent the code from running wrong after deleting some files. we do not deleting any baseline files, I will cover what is useful and what is not in each file in this readme
 # config
 Contains five folders base, inspose,petr,soit,wifi
 
