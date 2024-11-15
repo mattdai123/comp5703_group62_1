@@ -11,13 +11,10 @@ Before running both the baseline and modified code, please install `mmcv`, `mmde
 ```bash
 cd /ROOT/Opera/third_party/mmcv
 MMCV_WITH_OPS=1 pip install -e .
+exit 0
 
-Step 2: Install MMDET
+### Step 2: Install MMDET
 ```bash
 cd /ROOT/Opera/third_party/mmdet
 MMCV_WITH_OPS=1 pip install -e .
-
-### Step 3: Install OPERA In the home directory
-```bash
-pip install -r requirements.txt
-pip install -e .
+exit 0
