@@ -9,3 +9,6 @@ The setting of the remaining inspose, petr and soit cited in other literatures h
 One of the most important folders that contains the various config files used to configure and tune loss
 
 The most important thing is the four python files under the wifi folder, which are good config files used by the project. Our team ran all of them and finally decided to use MSEloss_64x2_lr_1e_5.py and made modifications based on this file. Because this file is the most stable and the results are not bad
+
+## demo & docs
+Some introductions are unrelated to the project
