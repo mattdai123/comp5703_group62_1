@@ -1,3 +1,13 @@
-The file is divided into two parts, the folder of baseline is the original code of baseline, we deleted some unnecessary files, and the folder of 2 is our modified code
-You need to install mmcv mmdet opera before running both baseline and 2 folders in different environments
-Install mmcv
+# Project README
+
+This project is organized into two main folders:
+1. **Baseline Folder**: Contains the original baseline code with unnecessary files removed.
+2. **Folder 2**: Contains our modified code.
+
+## Installation Instructions
+Before running both the baseline and modified code, please install `mmcv`, `mmdet`, and `opera` as follows:
+
+### Step 1: Install MMCV
+```bash
+cd /ROOT/Opera/third_party/mmcv
+MMCV_WITH_OPS=1 pip install -e .
